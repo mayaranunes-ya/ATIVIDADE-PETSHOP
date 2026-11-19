@@ -12,3 +12,18 @@
   font-size: clamp(0.82rem, 2vw, 1rem);
   line-height: 1.5;
 }
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-bottom: 4px;
+}
+
+.footer-info a {
+  color: var(--paw-yellow);
+  font-weight: 800;
+  text-decoration: none;
+}
