@@ -1,0 +1,14 @@
+.site-footer {
+  margin-top: auto;
+  padding: 20px;
+  border-top: 6px solid var(--paw-red);
+  background: var(--paw-blue-dark);
+  color: var(--paw-white);
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: clamp(0.82rem, 2vw, 1rem);
+  line-height: 1.5;
+}

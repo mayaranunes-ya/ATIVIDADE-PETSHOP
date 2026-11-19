@@ -1,0 +1,53 @@
+:root {
+  --paw-blue: #1677c8;
+  --paw-blue-dark: #0a4f91;
+  --paw-red: #ef3d45;
+  --paw-yellow: #ffd447;
+  --paw-green: #61b96c;
+  --paw-ink: #183153;
+  --paw-sky: #edf7ff;
+  --paw-white: #ffffff;
+  --paw-shadow: 0 10px 24px rgba(20, 78, 130, 0.16);
+  font-family: 'Trebuchet MS', 'Segoe UI', Arial, sans-serif;
+  color: var(--paw-ink);
+  background: var(--paw-sky);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--paw-sky);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(255, 212, 71, 0.28) 0 5px, transparent 6px),
+    radial-gradient(circle at 88% 18%, rgba(22, 119, 200, 0.12) 0 7px, transparent 8px),
+    linear-gradient(180deg, #cfeaff 0, var(--paw-sky) 260px, #ffffff 100%);
+}
+
+#root {
+  width: min(1126px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0 32px rgba(10, 79, 145, 0.12);
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
